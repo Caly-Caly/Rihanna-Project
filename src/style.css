@@ -1,0 +1,10 @@
+:root {
+  --title-font: "Playfair Display", serif;
+  --primary-font: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: var(--title-font);
+  font-size: 106px;
+  font-weight: 700;
+}
