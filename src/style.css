@@ -8,20 +8,31 @@ body {
   background-color: #121c2c;
   color: #fff;
 }
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(
+      rgba(18, 28, 44, 0.4),
+      rgba(18, 28, 44, 0.4)
+    ),
     url(../images/rihanna-hero-pic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
   text-align: center;
-  padding: 200px 0;
-}
-
-.container {
-  max-width: 1400px;
-  margin: 0 auto;
+  padding: 200px;
 }
 
 header button {
@@ -62,7 +73,40 @@ header h3 {
   margin: 0;
 }
 
-@media (max-width: 900px) {
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(../images/rihanna-tour-pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 75px 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer h3 {
+  font-family: var(--title-font);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+footer p {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 50px;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer ul {
+  padding: 0;
+}
+
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
