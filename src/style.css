@@ -31,6 +31,7 @@ section {
 .grid-2-columns img {
   max-height: 670px;
   max-width: 600px;
+  box-shadow: 7px 7px 12px #e4e4e4;
 }
 
 .grid-3-columns {
@@ -89,7 +90,7 @@ header h3 {
 }
 
 main {
-  background-color: #c9ac71;
+  background-color: #c1a46b;
 }
 
 main h2 {
