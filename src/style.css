@@ -327,6 +327,12 @@ section.third {
   section {
     padding: 20px;
   }
+
+  section,
+  .secondary,
+  .third {
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 1400px) {
