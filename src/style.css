@@ -296,8 +296,9 @@ section.third {
 
   header h2,
   footer h3,
-  main h3 {
+  main h2 {
     font-size: 21px;
+    margin-top: 5px;
   }
 
   header h3,
@@ -314,7 +315,9 @@ section.third {
   .grid-2-columns img {
     display: none;
   }
-
+  .card {
+    margin: 10px 40px;
+  }
   .card-header img {
     display: none;
   }
